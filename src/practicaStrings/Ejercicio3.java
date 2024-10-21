@@ -6,19 +6,11 @@ package practicaStrings;
 public class Ejercicio3 {
 	
 	public static boolean sonIguales (String s1, String s2) {
-		String cadenaCorta = "";
-		if (s1.length()<s2.length()) {
-			cadenaCorta += s1;
-		}
-		else {
-			cadenaCorta += s2;
-		}
-		
 		if (s1.length() != s2.length()) {
 			return false;
 		}
 		
-		for (int i = 0; i<cadenaCorta.length(); i++) {
+		for (int i = 0; i<s1(); i++) {
 			if (s1.charAt(i) != s2.charAt(i)) {
 				return false;
 			}
